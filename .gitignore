@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+
+#vscode
+/.vscode
+
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+#MacOS
+.DS_Store
