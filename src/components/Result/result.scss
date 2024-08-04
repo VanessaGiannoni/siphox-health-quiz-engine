@@ -1,0 +1,16 @@
+.result {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.correct {
+  color: #3F784C;
+}
+
+.incorrect {
+  color: #B20D30;
+
+  & em {
+    font-style: italic;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "category": "Science: Gadgets",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which buzzword did Apple Inc. use to describe their removal of the headphone?",
+      "correct_answer": "Courage",
+      "incorrect_answers": [
+        "Innovation",
+        "Revolution",
+        "Bravery"
+      ],
+      "answers": [
+        "Courage",
+        "Innovation",
+        "Revolution",
+        "Bravery"
+      ]
+    },
+    {
+      "category": "Science: Gadgets",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which buzzword did Apple Inc. use to describe their removal of the headphone?",
+      "correct_answer": "Courage",
+      "incorrect_answers": [
+        "Innovation",
+        "Revolution",
+        "Bravery"
+      ],
+      "answers": [
+        "Courage",
+        "Innovation",
+        "Revolution",
+        "Bravery"
+      ]
+    }
+  ]
+}
