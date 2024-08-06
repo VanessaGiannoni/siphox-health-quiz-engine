@@ -1,15 +1,22 @@
 import React from 'react'
 import { useQuiz } from '../../contexts/QuizContext'
-import question from '../../questions/questions.json'
-
 import './result.scss';
 
 export default function Result() {
   const { state } = useQuiz();
+
+  const renderCorrectAnswer = () => {
+    if (Array.isArray(state.correctAnswer)) {
+      return state.correctAnswer.join(', ')
+    }
+
+    return state.correctAnswer;
+  }
+
   return (
     <div>
       {
-        state.userAnswer === state.question?.correct_answer ?
+        state.isCorrect ?
         <p className='result correct'>
           <strong>
             &#10003; Your answered correctly!
@@ -17,7 +24,7 @@ export default function Result() {
         </p>
         :
         <p className='result incorrect'>
-          <strong>&#10005; Too bad. The correct answer was <em>{state.question?.correct_answer}</em></strong>
+          <strong>&#10005; Too bad. The correct answer was: <em>{renderCorrectAnswer()}</em></strong>
         </p>
       }
     </div>
