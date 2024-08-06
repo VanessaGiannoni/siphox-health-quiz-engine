@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.custom-select {
+	position: relative;
+  width: 320px;
+
+  .custom-select-wrapper {
+    display: flex;
+    max-width: 100%;
+  }
+
+  & select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 100%;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    background-color: $white;
+    border: 1px solid $dark;
+    border-radius: 5px;
+    color: $black;
+    cursor: pointer;
+    outline: none;
+
+    :focus {
+      background: $offWhite;
+      border: 1px solid $dark;
+      border-radius: 5px;
+    }
+  }
+
+  ::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
+    width: 12px;
+    height: 12px;
+    background-color: $black;
+    clip-path: polygon(8% 17%, 0% 25%, 50% 84%, 100% 25%, 92% 17%, 50% 65%);
+  }
+  
+}
