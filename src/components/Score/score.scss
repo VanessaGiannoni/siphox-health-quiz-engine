@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+
+.score-container {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark;
+  
+  .score-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: $light;
+    font-weight: bold;
+  }
+
+  .point {
+    font-size: $fontSizeMD;
+  }
+}
+

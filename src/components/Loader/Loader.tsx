@@ -3,7 +3,7 @@ import './loader.scss'
 
 export default function Loader() {
   return (
-    <div className="spinner"></div>
+    <div className="spinner" data-testid="loader"></div>
   )
 }
 

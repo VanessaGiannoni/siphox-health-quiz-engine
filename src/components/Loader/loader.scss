@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 .spinner {
    width: 56px;
    height: 56px;
@@ -21,14 +23,14 @@
 }
 
 .spinner::before {
-   --c: radial-gradient(farthest-side,#474bff 92%,#0000);
+   --c: radial-gradient(farthest-side,$dark 92%,$black);
    margin: 4.5px;
    background-size: 9px 9px;
    animation-timing-function: linear;
 }
 
 .spinner::after {
-   --c: radial-gradient(farthest-side,#474bff 92%,#0000);
+   --c: radial-gradient(farthest-side,$dark 92%,$black);
 }
 
 @keyframes spinner-3hs4a3 {

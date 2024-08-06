@@ -1,16 +1,18 @@
 import React from 'react'
 import { useQuiz } from '../../contexts/QuizContext';
+import './score.scss'
 
 function Score() {
   const { state } = useQuiz();
+
   return (
-    <div>
-      <div>
+    <div className='score-container'>
+      <div className='score-wrapper'>
         <p>Correct</p>
-        <span>{state.score.correct}</span>
+        <span className='point'>{state.score.correct}</span>
         <span>X</span>
+        <span className='point'>{state.score.incorrect}</span>
         <p>Incorrect</p>
-        <span>{state.score.incorrect}</span>
       </div>
     </div>
   )

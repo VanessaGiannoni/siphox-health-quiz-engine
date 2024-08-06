@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+
+.game-container {
+  max-width: 1124px;
+  margin: 58px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+
+  .game-title {
+    font-size: $fontSizeSM;
+    font-weight: 700;
+  }
+
+  .game-question-wrapper {
+    max-width: 500px;
+    line-height: 1.3;
+    text-align: left;
+    padding: 16px 0;
+
+    .game-question {
+      font-size: $fontSizeXXS;
+      padding: 16px 0;
+    }
+  }
+  
+}
+
