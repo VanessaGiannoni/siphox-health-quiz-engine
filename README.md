@@ -39,3 +39,14 @@ To run the project locally, use the following command:
 ```bash
 npm start
 ```
+
+#### Observations
+
+- Case Sensitivity: Please note that the values used in the project are case sensitive. Ensure that you enter values exactly as expected.
+
+- Conditional Navigation Between Questions: The bonus point on conditional navigation between questions is somewhat open-ended. Here are a couple of interpretations:
+
+  - Navigation Control: Changing between questions based on user actions, such as moving forward or backward through the quiz.
+  - Dynamic Rendering: Displaying questions based on user responses or categories, potentially rendering different questions based on previous answers or user profiles.
+
+If you have more specific details or examples about what is expected for this feature, please let me know so I can address it accurately.
