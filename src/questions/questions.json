@@ -1,0 +1,217 @@
+{
+  "results": [
+    {
+      "category": "Science: Computers",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Which of the following are programming languages?",
+      "correct_answer": [
+        "Python",
+        "JavaScript"        
+      ],
+      "incorrect_answers": [
+        "HTTP",
+        "CSS",
+        "HTML"
+      ],
+      "options": [
+        "Python",
+        "JavaScript",
+        "HTML",
+        "HTTP",
+        "CSS"
+      ]
+    },
+    {
+      "category": "Science: Gadgets",
+      "type": "one-choice",
+      "difficulty": "easy",
+      "question": "Which buzzword did Apple Inc. use to describe their removal of the headphone?",
+      "correct_answer": "Courage",
+      "incorrect_answers": [
+        "Innovation",
+        "Revolution",
+        "Bravery"
+      ],
+      "options": [
+        "Courage",
+        "Innovation",
+        "Revolution",
+        "Bravery"
+      ]
+    },
+    {
+      "category": "Science: Nature",
+      "type": "one-choice",
+      "difficulty": "medium",
+      "question": "Who discovered electricity?",
+      "correct_answer": "Benjamin Franklin",
+      "incorrect_answers": [
+        "Isaac Newton",
+        "Nikola tesla",
+        "Michael Faraday"
+      ],
+      "options": [
+        "Benjamin Franklin",
+        "Isaac Newton",
+        "Nikola tesla",
+        "Michael Faraday"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "one-choice",
+      "difficulty": "medium",
+      "question": "What was the FIRST Valve game to have VR?",
+      "correct_answer": "The Lab",
+      "incorrect_answers": [
+        "Dota 2",
+        "Destinations",
+        "Half-Life 2"
+      ],
+      "options": [
+        "The Lab",
+        "Dota 2",
+        "Destinations",
+        "Half-Life 2"
+      ]
+    },
+    {
+      "category": "Maths",
+      "type": "input",
+      "difficulty": "easy",
+      "question": "What is the result of 5 + 3?",
+      "correct_answer": "8"
+    },
+    {
+      "category": "History",
+      "type": "one-choice",
+      "difficulty": "hard",
+      "question": "Which year did the French Revolution start?",
+      "correct_answer": "1789",
+      "incorrect_answers": [
+        "1769",
+        "1779",
+        "1799"
+      ],
+      "options": [
+        "1789",
+        "1769",
+        "1779",
+        "1799"
+      ]
+    },
+    {
+      "category": "Geography",
+      "type": "one-choice",
+      "difficulty": "medium",
+      "question": "What is the capital of Australia?",
+      "correct_answer": "Canberra",
+      "incorrect_answers": [
+        "Sydney",
+        "Melbourne",
+        "Brisbane"
+      ],
+      "options": [
+        "Canberra",
+        "Sydney",
+        "Melbourne",
+        "Brisbane"
+      ]
+    },
+    {
+      "category": "Literature",
+      "type": "input",
+      "difficulty": "medium",
+      "question": "Who wrote 'The Lord of The Rings'?",
+      "correct_answer": "J.R.R. Tolkien"
+    },
+    {
+      "category": "Science: Nature",
+      "type": "one-choice",
+      "difficulty": "easy",
+      "question": "Which is the largest planet in our solar system?",
+      "correct_answer": "Jupiter",
+      "incorrect_answers": [
+        "Saturn",
+        "Earth",
+        "Mars"
+      ],
+      "options": [
+        "Jupiter",
+        "Saturn",
+        "Earth",
+        "Mars"
+      ]
+    },
+    {
+      "category": "Sports",
+      "type": "one-choice",
+      "difficulty": "medium",
+      "question": "In which sport would you perform a slam dunk?",
+      "correct_answer": "Basketball",
+      "incorrect_answers": [
+        "Tennis",
+        "Football",
+        "Baseball"
+      ],
+      "options": [
+        "Basketball",
+        "Tennis",
+        "Football",
+        "Baseball"
+      ]
+    },
+    {
+      "category": "General Knowledge",
+      "type": "input",
+      "difficulty": "hard",
+      "question": "What is the capital city of Bhutan?",
+      "correct_answer": "Thimphu"
+    },
+    {
+      "category": "Entertainment: Movies",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following movies were directed by Christopher Nolan?",
+      "correct_answer": [
+        "Inception",
+        "Dunkirk",
+        "The Dark Knight"
+      ],
+      "incorrect_answers": [
+        "Avatar",
+        "Titanic"
+      ],
+      "options": [
+        "Inception",
+        "Dunkirk",
+        "The Dark Knight",
+        "Avatar",
+        "Titanic"
+      ]
+    },
+    {
+      "category": "History",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Which of the following countries were part of the Axis Powers during World War II?",
+      "correct_answer": [
+        "Germany",
+        "Italy",
+        "Japan"
+      ],
+      "incorrect_answers": [
+        "France",
+        "United Kingdom"
+      ],
+      "options": [
+        "Germany",
+        "Italy",
+        "Japan",
+        "France",
+        "United Kingdom"
+      ]
+    }
+  ]
+}

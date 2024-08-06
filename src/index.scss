@@ -1,4 +1,5 @@
 @import './reset';
+@import './styles/variables';
 
 /* Your custom styles */
 body {
@@ -6,8 +7,43 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $light;
+  color: $dark;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  text-decoration: none;
+  color: $light;
+  font-size: $fontSizeSM;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+  background-color: $dark;
+  border: none;
+  
+  &hover {
+    opacity: .7;
+  }
+}
+
+strong {
+  font-weight: bold;
+}
+
+.label {
+  font-size: $fontSizeXXS;
+  font-weight: 600;
+  padding: 0 8px;
+  width: 230px;
+  text-align: left;
 }
